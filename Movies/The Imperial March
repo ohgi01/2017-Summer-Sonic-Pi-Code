@@ -1,4 +1,4 @@
-# The Imperial March
+# The Imperial March (-no chord)
 # By H.L.Yang
 use_synth :piano
 play_pattern_timed [:g4,:g4,:g4,:eb4,:b4,:g4,:eb4,:b4,:g4],[0.5,0.5,0.5,0.3,0.15,0.5,0.3,0.25,1]
