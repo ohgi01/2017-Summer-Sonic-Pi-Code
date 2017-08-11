@@ -1,4 +1,4 @@
-#Little Lucky
+#Little Lucky (Not finished yet)
 #By Tony Huang
 use_synth :piano
 play_pattern_timed [:a4,:a4,:c5,:c5,:f5,:f5,:e5,:e5,:d5,:a4,:d5,],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
