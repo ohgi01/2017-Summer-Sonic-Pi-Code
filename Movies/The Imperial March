@@ -1,0 +1,8 @@
+# The Imperial March
+# By H.L.Yang
+use_synth :piano
+play_pattern_timed [:g4,:g4,:g4,:eb4,:b4,:g4,:eb4,:b4,:g4],[0.5,0.5,0.5,0.3,0.15,0.5,0.3,0.25,1]
+play_pattern_timed [:d5,:d5,:d5,:eb5,:b4,:fs4,:eb5,:b5,:g5],[0.5,0.5,0.5,0.3,0.15,0.5,0.3,0.25,1]
+play_pattern_timed [:g5,:g4,:g4,:g5,:fs4,:f4,:e4,:eb4,:e4,:gs4,:cs5,:c5,:b4,:b4,:a4,:b4,:c5],[0.5,0.3,0.3,0.5,0.5,0.5,0.5,0.5,0.3,0.3,0.5,0.5,0.5,0.5,0.5,0.5,1]
+play_pattern_timed [:g4,:g4,:g4,:eb4,:b4,:g4,:eb4,:b4,:g4],[0.5,0.5,0.5,0.3,0.15,0.5,0.3,0.25,1]
+play_pattern_timed [:d5,:d5,:d5,:eb5,:b4,:fs4,:eb5,:b5,:g5],[0.5,0.5,0.5,0.3,0.15,0.5,0.3,0.25,1]
