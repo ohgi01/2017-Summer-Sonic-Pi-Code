@@ -1,4 +1,4 @@
-# Lyphard Melody
+# Lyphard Melody (Almost done)
 use_synth :piano
 in_thread do
   #Pre
