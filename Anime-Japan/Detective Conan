@@ -1,0 +1,54 @@
+# Kimi Ga Ireba(Detective Conan)-Not finish yet
+# By H.C.Hu
+use_synth :piano
+in_thread do
+  play_pattern_timed [:f5,:c5,:ab4],[0,0,0.75]
+  play_pattern_timed [:ab4,:bb4,:c5,:d5,:eb5,:ab5,:c6],[0.125,0.125,0.125,0.125,0.125,0.125,1]
+  play_pattern_timed [:ab4,:c5,:eb5],[0,0,0.75]
+  play_pattern_timed [:c5,:db5,:eb5,:g5,:c6,:db6,:eb6],[0.125,0.125,0.125,0.125,0.125,0.125,1]
+  play_pattern_timed [:f4,:ab4,:db5],[0,0,0.75]
+  play_pattern_timed [:db5,:eb5,:f5,:g5,:ab5,:f5],[0.125,0.125,0.125,0.125,0.125,1.125]
+  play_pattern_timed [:c5,:f5],[0,0.125]
+  play_pattern_timed [78,:g5],[0.125,0.125]
+  play_pattern_timed [:c5,:c6],[0,0.125]
+  sleep 0.125
+  play_pattern_timed [:as4,:as5],[0,2.125]
+  sleep 0.125
+  play_pattern_timed [:ab4,:c5,:f5],[0,0,2]
+  play_pattern_timed [:f5,:g5,:ab5,:f5],[0.125,0.125,0.125,1.125]
+  play_pattern_timed [:ab4,:c5,:eb5,],[0,0,2]
+  play_pattern_timed [:f5,:g5,:ab5,:bb5],[0.125,0.125,0.125,0.125]
+  play_pattern_timed [:f5,:c6],[0,1]
+  play_pattern_timed [:db4],[1]
+  play_pattern_timed [:bb4],[0.125]
+  sleep 0.125
+  play_pattern_timed [:ab5,:c6],[0,0.125]
+  sleep 0.125
+  play_pattern_timed [:f5,:ab5],[0,1]
+  play_pattern_timed [:ab5,:f5,:c5],[0,0,1]
+  play_pattern_timed [:g5,:eb5,:c5],[0,0,1.5]
+  play_pattern_timed [:ab4,:g4],[0.5,0.5]
+  play_pattern_timed [:f4,:c5],[1,2]
+  play_pattern_timed [:ab4,:f4],[0.5,0.5]
+  play_pattern_timed [:g4,:c5],[0.25,0.75]
+  play_pattern_timed [:db5],[1]
+  play_pattern_timed [:c5],[0.125]
+  sleep 0.125
+  play_pattern_timed [:bb4],[1.5]
+  play_pattern_timed [:ab4,:bb4,:ab4,:bb4],[0.125,0.125,0.125,0.125]
+  play_pattern_timed [:c5],[1]
+  play_pattern_timed [:ab4,:g4],[0.5,0.5]
+  play_pattern_timed [:f4,:db4,:ab4],[0.5,0.5,0.5]
+  play_pattern_timed [:bb4,:db4],[0.5,0.5]
+  play_pattern_timed [:ab4],[0.125]
+  play_pattern_timed [:g4,:c4],[0,1]
+end
+in_thread do
+  #play_pattern_timed [:bb4,:bb5,:bb4,:bb5,:bb4,:bb5,:bb4,:bb5],[0.125,0.125,0.125,0.125,0.125,0.125,0.125,0.125]
+  #play_pattern_timed [:d4],[0.25]
+  #play_pattern_timed [:c3],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25]
+  #play_pattern_timed [:c3,:g3,:e3,:g3,:c3,:a3,:f3,:a3,:c3,:g3,:e3,:g3,:b2,:g3,:f3,:g3],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25]
+  #play_pattern_timed [:c3,:g3,:e3,:g3,:c3,:a3,:f3,:a3,:c3,:g3,:e3,:g3,:b2,:g3,:f3,:g3],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25]
+  #play_pattern_timed [:c3,:g3,:e3,:g3,:c3,:g3,:e3,:g3,:c3,:a3,:f3,:a3,:c3,:g3,:e3,:g3],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25]
+  #play_pattern_timed [:c3,:a3,:f3,:a3,:c3,:g3,:e3,:g3,:b2,:g3,:f3,:g3,:c3,:g3,:e3,:g3],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25]
+end
