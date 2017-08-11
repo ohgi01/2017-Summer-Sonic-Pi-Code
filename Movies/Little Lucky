@@ -1,5 +1,5 @@
 #Little Lucky (Not correct yet)
-#By Tony Huang
+#By Tony Huang,no chord
 use_synth :piano
 #Pre
 play_pattern_timed [:f3,:c4,:a4,:f3,:c4,:g3,:b3,:f4,:g3,:b3],[0.5,0.5,0.5,0.5,2,0.5,0.5,0.5,0.5,2]
