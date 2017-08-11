@@ -1,3 +1,5 @@
+# Super Mario Bros
+# By Y.T.Lin & C.S.Chuang
 use_synth :piano
 play_pattern_timed [:fs4,:e5,:fs4,:e5],[0,0.125,0,0.25]
 sleep 0.125
