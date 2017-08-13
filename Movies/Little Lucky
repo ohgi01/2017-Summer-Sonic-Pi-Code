@@ -7,10 +7,11 @@ play_pattern_timed [:c3,:e3,:bb3,:c3,:e3,:f3,:g3,:a3,:c4,:f3,:a3],[0.5,0.5,0.5,0
 in_thread do
   #Start
   sleep 0.5
-  play_pattern_timed [:a4,:a4,:c5,:c5,:f5,:f5,:e5,:e5,:d5,:a4,:d5],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,2.5]
+  play_pattern_timed [:a4,:a4,:c5,:c5,:f5,:f5,:e5],[0.5,0.5,0.5,0.5,0.5,0.5,0.5]#5
+  play_pattern_timed [:e5,:d5,:a4,:d5],[0.5,0.5,0.5,2.5]
   sleep 0.5
   play_pattern_timed [:d5,:d5,:e5,:e5,:a5,:a5,:e5,:e5,:c5,:a4,:c5,:a5,:bb5,:c6,:e6],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
-  play_pattern_timed [:f6,:a4,:a4,:c5,:c5,:f5,:f5,:e5,:e5,:d5,:a4,:d5,:d5,:e5],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.5,0.5,0.5]
+  play_pattern_timed [:f6,:a4,:a4,:c5,:c5,:f5,:f5,:e5,:e5,:d5,:a4,:d5,:d5,:e5],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,1.5,0.5,0.5]#10
   sleep 0.5
   play_pattern_timed [:eb5,:e5,:a5,:g5,:f5,:a4,:f5],[0.5,0.5,1,1,1.5,0.5,0.5]
   sleep 2.5
@@ -40,13 +41,61 @@ in_thread do
   play_pattern_timed [:c5,:a5,:a5,:bb5,:a5,:f5,:b4,:g5,:g5,:g5,:f5,:a5],[0.5,0.25,1.75,0.5,0.5,0.5,0.5,0.25,1.75,0.5,0.5,1]
   play_pattern_timed [:g5,:f5,:a5,:g5,:f5],[0.5,0.5,1,1,0.5]
   #repeat Main
+  play_pattern_timed [:a5,:c5,:g5,:a5,:c5,:g5,:a5],[0.5,0.5,0.5,1,0.5,0.5,0.5]
+  sleep 0.5
+  play_pattern_timed [:g5,:g5,:a5,:bb5,:c6,:g5,:f5,:f5,:a4,:d5,:f5,:a4,:d5,:e5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5]
+  sleep 0.5
+  play_pattern_timed [:e5,:e5,:a5,:c6,:a5,:f5,:e5,:d5,:bb5,:bb5,:c6,:bb5,:a5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.25,1.75,0.5,0.5,0.5]
+  play_pattern_timed [:c5,:a5,:a5,:bb5,:a5,:f5,:b4,:g5,:g5],[0.5,0.25,1.75,0.5,0.5,0.5,0.5,0.25,3.25]
+  sleep 0.5
+  play_pattern_timed [:a5,:f5,:f5,:a5,:g5,:f5],[0.5,0.5,0.5,0.75,0.75,0.5]
+  #Mid
+  play_pattern_timed [:c5,:a4,:c5,:f5,:a5,:g5,:a5,:d5,:e5,:f5],[2,0.5,0.5,0.5,0.5,1,0.5,2,0.25,0.25]
+  play_pattern_timed [:g5,:c5,:g5,:g5,:gb5,:g5,:a5,:bb5,:a5,:bb5,:c6,:bb5,:c6],[0.5,0.5,0.5,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25]
+  play_pattern_timed [:d6,:bb5,:c6,:d6,:e6,:d6,:e6,:f6,:g6,:f6,:e6,:d6,:c6],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,1]
+  #repeat Repeat start
+  sleep 0.5
+  play_pattern_timed [:a4,:a4,:c5,:c5,:f5,:f5,:e5,:e5,:d5,:a4,:d5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,2.5]
+  sleep 0.5
+  play_pattern_timed [:d5,:d5,:e5,:e5,:a5,:a5,:e5,:e5,:a4,:c5,:g5,:f5,:e5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,1,0.5,1,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:f5,:a4,:a4,:c5,:c5,:f5,:f5,:g5,:e5,:f5,:a4,:d5,:d5,:f5,:e5],[0.5,0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,1,0.5,0.5,1]
+  play_pattern_timed [:eb5,:e5,:a5,:g5,:f5],[0.5,0.5,1,1,2.5]
+  #repeat theme 2
+  play_pattern_timed [:a5,:g5,:f5,:e5,:d5,:d5,:d5,:d5,:d5,:a5,:g5],[0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,1,0.5]
+  sleep 2
+  play_pattern_timed [:g5,:f5,:e5,:d5,:c5,:c5,:c5,:a4,:c5,:g5,:f5],[0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,1,0.5]
+  sleep 1.5
+  play_pattern_timed [:f5,:f5,:c5,:c5,:f4,:a4,:g4,:d5,:d5],[0.5,0.5,0.5,0.5,0.5,1,0.5,2,0.5]
+  sleep 0.5
+  play_pattern_timed [:d5,:d5,:d5,:f5,:d5,:f5,:d5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5]
+  play_pattern_timed [:f5,:f5,:f5,:f5,:a5,:g5,:g5],[0.5,0.5,0.5,0.5,0.5,1,0.5]
+  sleep 0.5
+  play_pattern_timed [:bb5,:bb5],[0.5,0.5]
+  #Main
+  play_pattern_timed [:c5,:a5,:g5,:f5,:g5,:a5,:c5,:g5,:a5,:c5,:g5,:a5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5]
+  sleep 0.5
+  play_pattern_timed [:g5,:g5,:a5,:bb5,:a5,:g5,:e5,:f5,:a4,:d5,:f5,:a4,:d5,:e5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5]
+  sleep 0.5
+  play_pattern_timed [:e5,:e5,:a5,:c6,:a5,:f5,:e5,:d5,:bb5,:bb5,:c6,:bb5,:a5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.25,1.75,0.5,0.5,0.5]
+  play_pattern_timed [:c5,:a5,:a5,:bb5,:a5,:f5,:b4,:g5,:g5,:g5,:f5,:a5],[0.5,0.25,1.75,0.5,0.5,0.5,0.5,0.25,1.75,0.5,0.5,1]
+  play_pattern_timed [:g5,:f5,:a5,:g5,:f5],[0.5,0.5,1,1,0.5]
+  #repeat Main
+  play_pattern_timed [:a5,:c5,:g5,:a5,:c5,:g5,:a5],[0.5,0.5,0.5,1,0.5,0.5,0.5]
+  sleep 0.5
+  play_pattern_timed [:g5,:g5,:a5,:bb5,:c6,:g5,:f5,:f5,:a4,:d5,:f5,:a4,:d5,:e5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.5,0.5,1,0.5,0.5,0.5]
+  sleep 0.5
+  play_pattern_timed [:e5,:e5,:a5,:c6,:a5,:f5,:e5,:d5,:bb5,:bb5,:c6,:bb5,:a5],[0.5,0.5,0.25,0.75,0.5,0.5,0.5,0.5,0.25,1.75,0.5,0.5,0.5]
+  play_pattern_timed [:c5,:a5,:a5,:bb5,:a5,:f5,:b4,:g5,:g5],[0.5,0.25,1.75,0.5,0.5,0.5,0.5,0.25,3.25]
+  sleep 0.5
+  play_pattern_timed [:a5,:f5,:f5,:a5,:g5,:f5],[0.5,0.5,0.5,0.75,0.75,0.5]
 end
 
 in_thread do
   #Start
-  play_pattern_timed [:f3,:c4,:a4,:f3,:c4,:g3,:b3,:f4,:g3,:b3],[0.5,0.5,0.5,0.5,2,0.5,0.5,0.5,0.5,2]
+  play_pattern_timed [:f3,:c4,:a4,:f3,:c4],[0.5,0.5,0.5,0.5,2]#5
+  play_pattern_timed [:g3,:b3,:f4,:g3,:b3],[0.5,0.5,0.5,0.5,2]
   play_pattern_timed [:c3,:e3,:bb3,:c3,:e3,:f3,:g3,:a3,:c4,:f3,:a3],[0.5,0.5,0.5,0.5,2,0.5,0.25,0.25,0.5,0.5,2]
-  play_pattern_timed [:d3,:a3,:f4,:d3,:a3,:g3,:b3,:f4,:g3,:b3],[0.5,0.5,0.5,0.5,2,0.5,0.5,0.5,0.5,2]
+  play_pattern_timed [:d3,:a3,:f4,:d3,:a3,:g3,:b3,:f4,:g3,:b3],[0.5,0.5,0.5,0.5,2,0.5,0.5,0.5,0.5,2]#10
   play_pattern_timed [:c3,:e3,:bb3,:c3,:e3,:f3,:g3,:a3,:c4,:f3,:a3,:g3],[0.5,0.5,0.5,0.5,2,0.5,0.25,0.25,0.5,0.5,1,1]
   #Repeat Start
   play_pattern_timed [:f3,:c4,:a4,:f3,:c4,:g3,:b3,:f4,:g3,:b3],[0.5,0.5,0.5,0.5,2,0.5,0.5,0.5,0.5,2]
@@ -71,4 +120,52 @@ in_thread do
   play_pattern_timed [:g2,:d3,:g3,:d3,:b3,:d3],[0.5,0.5,0.5,0.5,1,1]
   play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3],[0.5,0.5,0.5,0.5,1,1]
   #repeat Main
+  play_pattern_timed [:f2,:c3,:f3,:c3,:a3,:c3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:d3,:a3,:d4,:a3,:f3,:d3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:a2,:e3,:a3,:e3,:c4,:e3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:bb2,:f3,:bb3,:f3,:d4,:f3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:f2,:c3,:f3,:c3,:a3,:c3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:g2,:d3,:g3,:d3,:b3,:d3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c3,:g3,:c4],[0,0,4]
+  #Mid
+  play_pattern_timed [:f1,:f2,:c3,:f3,:c3,:f3,:c3,:f3,:c3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:g1,:g2,:d3,:g3,:d3,:b3,:d3,:g3],[0,0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c2,:c3,:g3,:c4,:g3,:c4,:g3,:c4,:g3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:c2,:c3,:g3,:c4,:g3,:c4,:g3,:c4,:g3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  #repeat Repeat start
+  play_pattern_timed [:f2,:f3,:c3,:a3,:c3,:a3,:c3,:a3,:c3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:g1,:g2,:d3,:g3,:d3,:b3,:d3],[0,0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c2,:c3,:g3,:c4,:g3,:e4,:g3],[0,0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:f2,:f3,:g3,:a3,:c3,:f3,:a3],[0,0.5,0.25,0.25,0.5,0.5,2]
+  play_pattern_timed [:d2,:d3,:a3,:d4,:a3,:f4,:a3,:d4,:a3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:g2,:g3,:g3,:f4,:g3,:f4,:g3,:f4,:g3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:c2,:c3,:c3,:bb3,:c3,:bb3,:c3,:bb3,:c3],[0,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:f2,:f3,:c4,:f4,:f3,:c4,:a3],[0,0.5,0.5,0.5,0.5,1,1]
+  #repeat theme 2
+  play_pattern_timed [:bb2,:f3,:bb3,:f3,:d4,:f3,:bb3,:f3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3,:c4,:g3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:a2,:e3,:a3,:e3,:c4,:e3,:a3,:e3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:d3,:a3,:d4,:a3,:f4,:a3,:d4,:a3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:g2,:d3,:g3,:d3,:bb3,:d3,:g3,:d3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:bb2,:f3,:bb3,:f3,:d4,:f3,:bb3,:f3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5]
+  play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3,:c4,:g3,:c3],[0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,4]
+  #Main
+  play_pattern_timed [:f3,:c4,:f4,:c4,:a4,:c4],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:d3,:a3,:d4,:a3,:f3,:d3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:a2,:e3,:a3,:e3,:c4,:e3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:bb2,:f3,:bb3,:f3,:d4,:f3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:f2,:c3,:f3,:c3,:a3,:c3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:g2,:d3,:g3,:d3,:b3,:d3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3],[0.5,0.5,0.5,0.5,1,1]
+  #repeat Main
+  play_pattern_timed [:f2,:c3,:f3,:c3,:a3,:c3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c3,:g3,:c4,:g3,:e4,:g3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:d3,:a3,:d4,:a3,:f3,:d3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:a2,:e3,:a3,:e3,:c4,:e3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:bb2,:f3,:bb3,:f3,:d4,:f3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:f2,:c3,:f3,:c3,:a3,:c3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:g2,:d3,:g3,:d3,:b3,:d3],[0.5,0.5,0.5,0.5,1,1]
+  play_pattern_timed [:c3,:g3,:c4],[0,0,4]
 end
