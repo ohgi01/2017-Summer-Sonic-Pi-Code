@@ -1,0 +1,82 @@
+# Welcome to Sonic Pi v2.11.1
+#Fur Elise
+use_synth:piano
+in_thread do
+  play_pattern_timed [:e5,:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.5
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:gs4,:b4,:c5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:e5,:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:c5,:b4,:a4,],[0.25,0.25,0.25,0.5]
+  sleep 1.5
+  play_pattern_timed [:e5,:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:gs4,:b4,:c5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:e5,:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:c5,:b4,:a4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:b4,:c5,:d5,:e5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:g4,:f5,:e5,:d5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:f4,:e5,:d5,:c5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:d5,:c5,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:e5,],[0.25,0.25,]
+  sleep 1
+  play_pattern_timed [:e5,:e6,],[0.25,0.25,]
+  sleep 1
+  play_pattern_timed [:e5,:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:gs4,:b4,:c5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:gs4,:b4,:c5,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:e5,:ds5,:e5,:ds5,:e5,:b4,:d5,:c5,:a4],[0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:c4,:e4,:a4,:b4,],[0.25,0.25,0.25,0.5]
+  sleep 0.25
+  play_pattern_timed [:e4,:c5,:b4,:a4,],[0.25,0.25,0.25,0.5]
+end
+#A
+in_thread do
+  sleep 2
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 1.5
+  play_pattern_timed [:e2,:e3,:gs3,],[0.25,0.25,0.25]
+  sleep 1.5
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 1.5
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 0.625
+  play_pattern_timed [:e2,:e3,:gs3,],[0.25,0.25,0.25]
+  sleep 0.625
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 3.5
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 0.625
+  play_pattern_timed [:e2,:e3,:gs3,],[0.25,0.25,0.25]
+  sleep 0.625
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 3.5
+  play_pattern_timed [:a2,:e3,:a3,],[0.25,0.25,0.25]
+  sleep 0.625
+end
